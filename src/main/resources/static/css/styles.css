@@ -1,0 +1,68 @@
+.user2_Buttons button {
+		background-color: #4CAF50; /* Green background */
+		border: 1px solid green; /* Green border */
+		color: white; /* White text */
+		padding: 10px 24px; /* Some padding */
+		cursor: not-allowed;
+		float: left; /* Float the buttons side by side */
+		table-layout: fixed;
+		width: 10%;
+		padding: 15px 32px;
+}
+
+.user2_Buttons button:hover:not([disabled]){
+		background-color: yellow; 
+		cursor: pointer; 
+}
+
+.user1_Buttons button {
+		background-color: #AD4545; 
+		border: 1px solid green; /* Green border */
+		color: white; /* White text */
+		padding: 10px 24px; /* Some padding */
+		cursor: not-allowed;
+		float: left; /* Float the buttons side by side */
+		table-layout: fixed;
+		width: 10%;
+		padding: 15px 32px;
+}
+
+.user1_Buttons button:hover:not([disabled]){
+		background-color: yellow; 
+		cursor: pointer;
+}
+
+.user1_Store button {
+		width: 10%;
+		padding: 125px 32px;
+		background-color: #AD4545;
+		color: white;
+}	
+
+.user2_Store button {
+		width: 10%;
+		padding: 125px 32px;
+		background-color: #4CAF50;
+		color: white;
+}
+
+.startButton button{
+		padding: 15px 100px;
+		margin:auto;
+		color: white; /* White text */
+		display:block;
+		background-color: #000000;
+}
+
+.startButtonClass:hover:not([disabled]) {
+		background-color: yellow; 
+}
+
+.gameBoard {
+		background-color: #70867f;
+}
+
+body {
+		background-color: #fff2ec;
+}
+	

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+<script src="js/index.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;">Welcome To Mancala Game</h1>
+		<h2 id="currentPlayerMessage" style="text-align: center;">Please
+			click the button to start the game...</h2>
+		<div class="startButton">
+			<button class="startButtonClass" id="startButtonId"
+				name="startButton" onclick="newGame()">New Game</button>
+		</div>
+		<br />
+		<div class="gameBoard">
+			<br />
+			<br />
+			<div class="user2_Buttons">
+				<button id='pit12' name="Player_2_Pit_6"
+					onclick="button_12_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit11' name="Player_2_Pit_5"
+					onclick="button_11_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit10' name="Player_2_Pit_4"
+					onclick="button_10_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit9' name="Player_2_Pit_3"
+					onclick="button_9_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit8' name="Player_2_Pit_2"
+					onclick="button_8_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit7' name="Player_2_Pit_1"
+					onclick="button_7_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<br />
+				<br />
+				<br />
+			</div>
+			<br /> <br />
+
+			<div class="user2_Store">
+				<button id='pit13' name="Player_2_Store" style="float: left;"
+					disabled></button>
+
+			</div>
+			<div class="user1_Store">
+				<button id='pit6' name="Player_1_Store" style="float: right;"
+					disabled></button>
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</div>
+
+			<br /> <br />
+
+			<div class="user1_Buttons">
+				<br />
+				<br />
+				<br />
+				<button class='pit0' id='pit0' name="Player_1_Pit_1"
+					onclick="button_0_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit1' name="Player_1_Pit_2"
+					onclick="button_1_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit2' name="Player_1_Pit_3"
+					onclick="button_2_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit3' name="Player_1_Pit_4"
+					onclick="button_3_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit4' name="Player_1_Pit_5"
+					onclick="button_4_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<button id='pit5' name="Player_1_Pit_6"
+					onclick="button_5_ClickAction()" style="margin-left: 6.5em;"
+					disabled></button>
+				<br>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+</body>
+</html>
